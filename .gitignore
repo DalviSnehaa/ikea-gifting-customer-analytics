@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Data files (download / generate locally)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Power BI files can be large and may contain local data
+*.pbix
+*.pbit
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
